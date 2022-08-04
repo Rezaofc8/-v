@@ -70,7 +70,7 @@ Hello *%name* , Here my command list.
 Base Script : *R-TXZY-MD*
 Recode Script : *Private*
 
- © R-TXZY-MD 
+ © RezaOfc
 ${'```WhatsApp Multi Device```'}
 `,
 }
