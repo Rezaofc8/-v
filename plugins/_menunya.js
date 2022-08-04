@@ -189,10 +189,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'© RezaOfc',
+                            hydratedFooterText:'© EzaBot-MD',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
+                                    displayText: 'Ig owner',
                url: web
              }
 
