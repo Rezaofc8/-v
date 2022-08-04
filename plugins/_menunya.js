@@ -40,7 +40,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-_HanzBotz Multi Device | Official Bot Account_
+_Alok Hamil-MD | Official Bot Account_
 
 ❏ Username : *%name*
 ❏ Limit : *%limit* Limit
