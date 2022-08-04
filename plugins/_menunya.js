@@ -39,17 +39,24 @@ let tags = {
   'photooxy': 'PHOTO OXY MENU', 
 }
 const defaultMenu = {
-  before: `
-_Alok Hamil-MD | Official Bot Account_
+  before: `––––––『 *BOT WA 2022* 』––––––
+
+_HAI KAK *%name*⁩_ （＾ω＾）
+*Saya Adalah Robot Yang Di Beri Nama Eza Bot*
+*Saya Di Kembangkan Oleh Seseorang Yang Bernama RezaOfc*
+
+╭══════════ ⳹❋ཻུ۪۪⸙ 
+║ *YOUR PROFILE*
+╰══════════ ⳹❋ཻུ۪۪⸙ 
 
 ❏ Username : *%name*
+❏ Tag :
 ❏ Limit : *%limit* Limit
 ❏ Role : *%role*
 ❏ Level : *%level (%exp / %maxexp)*
 ❏ Total XP : *%totalexp* XP
 
 ❏ Uptime : *%uptime*
-❏ Tanggal Islam: *%dateIslamic*
 ❏ Hari : %week %weton
 ❏ Waktu: %time
 ❏ Tanggal: %date
