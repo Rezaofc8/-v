@@ -1,30 +1,29 @@
-const uploadImage = require('../lib/uploadImage')
-const { MessageType } = require('@adiwajshing/baileys-md')
-const { sticker } = require('../lib/sticker')
-let handler = async (m, { conn, text, usedPrefix, command }) => {
+import { sticker } from '../lib/sticker.js'
+import uploadFile from '../lib/uploadFile.js'
+import uploadImage from '../lib/uploadImage.js'
+import { webp2png } from '../lib/webp2mp4.js'
 
-    let [atas, bawah] = text.split`|`
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+let stiker = false
+
+let [atas, bawah] = text.split`|`
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
     if (!mime) throw `balas gambar dengan perintah\n\n${usedPrefix + command} <${atas ? atas : 'teks atas'}>|<${bawah ? bawah : 'teks bawah'}>`
-    if (!/image\/(jpe?g|png)/.test(mime)) throw `_*Mime ${mime} tidak didukung!*_`
-    let img = await q.download()
+    if (!/image\/(jpe?g|png)/g.test(mime)) throw `_*Mime ${mime} tidak didukung!*_`
+    let img = await q.download?.()
     let url = await uploadImage(img)
-    meme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas ? atas : '')}/${encodeURIComponent(bawah ? bawah : '')}.png?background=${url}`
-try {
-    let stiker = await sticker(null, meme, global.packname, global.author)
-    await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
-      quoted: m
-    })
-  } catch (e) {
-    m.reply('gagal membuat stiker, Mencoba Mengirim gambar')
-    await conn.sendFile(m.chat, meme, 'image.png', 'Nih Banh', m)
-  }
+    var meme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas ? atas : '')}/${encodeURIComponent(bawah ? bawah : '')}.png?background=${url}`
+    stiker = await sticker(false, meme, global.packname, global.author)
+    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
 }
-handler.help = ['smeme<teks atas>|<teks bawah>']
+//lo mau apa??
+handler.help = ['smeme (caption|reply media)', 'smm <url>', 'sm(caption|reply media)']
 handler.tags = ['sticker']
-handler.command = /^(smeme)$/i
+handler.command = /^(smeme|sm|smm)$/i
 
-handler.limit = false
+export default handler
 
-module.exports = handler
+const isUrl = (text) => {
+  return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
+}
