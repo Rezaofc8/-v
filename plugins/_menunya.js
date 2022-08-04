@@ -183,7 +183,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'© R-TXZY-MD',
+                            hydratedFooterText:'© RezaOfc',
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
