@@ -4,7 +4,7 @@ global.mods = ['6289606790112']
 global.prems = ['6289606790112,6283815019820,6281352905695'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = '⫹⫺ Owner'
+global.nameowner = 'RezaOfc'
 global.numberowner = '6289606790112'
 global.instagram = 'https://instagram.com/itz.reza_official_'
 global.github = 'https://github.com/BOTCAHX'
@@ -13,7 +13,7 @@ global.pulsa = '6289606790112'
 global.gopay = ''
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Alok Hamil-MD'
+global.namebot = 'EzaBot-MD'
 global.gc = 'https://chat.whatsapp.com/BCgUSCxQltq8SwcpJe1tDf'
 global.web = 'https://instagram.com/itz.reza_official_' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
@@ -25,8 +25,8 @@ global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = '© RezaOfc'
 global.watermark = wm
-global.wm2 = '⫹⫺ Alok hamil-md'
-global.wm3 = '© Alok Hamil-md'
+global.wm2 = '⫹⫺ EzaBot-MD'
+global.wm3 = '© By RezaOfc'
 global.wm4 = 'Ⓛ = Limit Ⓟ = Premium'
 global.htki = '––––––『' 
 global.htka = '』––––––'
