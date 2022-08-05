@@ -216,8 +216,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            },
            {
              quickReplyButton: {
-               displayText: '....',
-               id: '.afk mau ngocok sama ayank',
+               displayText: 'Script',
+               id: '.sc ',
              }
                             }]
                         }
