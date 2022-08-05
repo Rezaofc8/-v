@@ -39,7 +39,7 @@ let tags = {
   'photooxy': 'PHOTO OXY MENU', 
 }
 const defaultMenu = {
-  before: `––––––『 *Bot Whatsapp* 』––––––
+  before: `––––『 *Bot Whatsapp* 』––––
 
 HAI KAK *%name*⁩ （＾ω＾）
 
