@@ -42,12 +42,8 @@ const defaultMenu = {
   before: `––––––『 *BOT WA 2022* 』––––––
 
 HAI KAK *%name*⁩ （＾ω＾）
-*Saya Adalah Robot Yang Di Beri Nama Eza Bot*
-*Saya Di Kembangkan Oleh Seseorang Yang Bernama RezaOfc*
 
-╭══════════ ⳹❋ཻུ۪۪⸙ 
-║ *YOUR PROFILE*
-╰══════════ ⳹❋ཻུ۪۪⸙ 
+  *YOUR PROFILE*
 
 ❏ Username : *%name*
 ❏ Limit : *%limit* Limit
@@ -73,8 +69,8 @@ HAI KAK *%name*⁩ （＾ω＾）
   after: `
 ──···────────────────···──
 
-Base Script : *R-TXZY-MD*
-Recode Script : *Private*
+⫹⫹⫺⫺ Base Script : *R-TXZY-MD*
+⫹⫹⫺⫺ Recode Script : *Private*
 
  © RezaOfc
 ${'```WhatsApp Multi Device```'}
@@ -189,31 +185,31 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'© EzaBot-MD',
+                            hydratedFooterText:'© EzaBot-MD | Bot 2022',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Ig owner',
+                                    displayText: 'Instagram owner ',
                url: web
              }
 
            },
              {
              urlButton: {
-               displayText: 'Group Bot', 
+               displayText: 'Group Bot Official ', 
                url: gc
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Owner',
+               displayText: 'Owner ',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Donasi',
+               displayText: 'Donasi ',
                id: '.donasi',
              }
 
@@ -221,7 +217,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            {
              quickReplyButton: {
                displayText: 'Script',
-               id: '.sc',
+               id: '.sc ',
              }
                             }]
                         }
