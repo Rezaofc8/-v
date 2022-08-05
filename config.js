@@ -10,7 +10,7 @@ global.instagram = 'https://instagram.com/itz.reza_official_'
 global.github = 'https://github.com/BOTCAHX'
 global.dana = '6289606790112'
 global.pulsa = '6289606790112'
-global.gopay = ''
+global.gopay = '6289606790112'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'EzaBot-MD'
@@ -23,7 +23,7 @@ global.fotonya1 = 'https://telegra.ph/file/19597d615d234c5f22a87.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/19597d615d234c5f22a87.jpg' //ini juga ganti 
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© RezaOfc'
+global.wm = '© EzaBot-MD'
 global.watermark = wm
 global.wm2 = '⫹⫺ EzaBot-MD'
 global.wm3 = '© By RezaOfc'
@@ -36,9 +36,9 @@ global.wait = '_*Tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
+global.stiker_wait = '*Sabar sayang stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nAlok hamil'
+global.author = 'Bot WhatsApp\nEzaBot-MD'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
