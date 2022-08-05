@@ -39,7 +39,7 @@ let tags = {
   'photooxy': 'PHOTO OXY MENU', 
 }
 const defaultMenu = {
-  before: `––––––『 *BOT WA 2022* 』––––––
+  before: `––––––『 *Bot Whatsapp* 』––––––
 
 HAI KAK *%name*⁩ （＾ω＾）
 
@@ -57,7 +57,6 @@ HAI KAK *%name*⁩ （＾ω＾）
 ❏ Tanggal: %date
 ❏ Library : *Baileys Multi Device*
 ❏ Prefix Used : [ %p ]
-❏ Penguna bot : *${totalreg} user*
 ❏ Database : %rtotalreg *dari* %totalreg
 ❏ Tanggal islam : *%dateIslamic* 
 
@@ -217,8 +216,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            },
            {
              quickReplyButton: {
-               displayText: 'Script',
-               id: '.sc ',
+               displayText: '....',
+               id: '.afk mau ngocok sama ayank',
              }
                             }]
                         }
