@@ -4,7 +4,7 @@ user.afk = + new Date
 user.afkReason = text
 m.reply(global.wait)
 m.reply(`
-*${conn.getName(m.sender)}* sekarang AFK ${text ? '\nDengan Alasan : ' + text : 'Tanpa Alasan'}
+Kamu sekarang AFK ${text ? '\nDengan Alasan : ' + text : 'Tanpa Alasan'}
 `)
 }
 handler.help = ['afk [alasan]']
